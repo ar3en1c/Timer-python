@@ -101,6 +101,8 @@ def run_countdown():
         countdown += 1
         time.sleep(1)
         os.system("clear")
+    print("Your CountDown End With: ", end="")
+    tabdil(countdown)
 
 # تابع برای لیسنر شمارش معکوس
 def start_countdown_listener():
@@ -117,3 +119,5 @@ if faal == 1:
     run_timer()
 elif faal == 2:
     run_countdown()
+    input()
+    input()
